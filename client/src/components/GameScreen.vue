@@ -78,6 +78,7 @@ onMounted(() => {
 
 const handleMouseMove = (event) => {
   const context = canvas.value.getContext("2d");
+  if (event.clientX > 550 || event.clientX < 300) return 1;
   drawRightPlayerMovement(context, event.clientX);
 }
 
