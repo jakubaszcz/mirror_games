@@ -1,9 +1,9 @@
 <template>
-
+  <GameScreen/>
 </template>
 
-<script>
-
+<script setup>
+  import GameScreen from "@/components/GameScreen.vue";
 </script>
 
 <style>
